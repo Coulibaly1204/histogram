@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
 
 
 *{
@@ -8,23 +8,33 @@
 }
 
 
+body{
+    background-color:hsl(27, 66%, 92%);
+    font-family: 'DM Sans', sans-serif;
+    
+
+
+}
+
+
 main{
-    border: 1px solid red;
-    width: 100%;
-    height: 100vh;
+    width: 100;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color:hsl(27, 66%, 92%);
+    height: 100vh;
+
+    
 }
 
 
 
 .container{
-    border: 1px solid blue;
     width: 30%;
     height: 80vh;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -60,7 +70,6 @@ h4{
 
 
 .flexbox-bottom{
-    border: 1px solid goldenrod;
     width: 100%;
     height: 62vh;
     border-radius: 0.6rem;
@@ -68,17 +77,24 @@ h4{
     padding-left: 1rem;
     padding-top: 1rem;
     background-color: white;
+
     
 
 }
 
+.flexbox-bottom h2{
+    padding-left: 2rem;
+}
+
 
 .histogram-container{
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: end;
-    justify-content: space-around;
-    margin-top: 3rem;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+    font-size: small;
+    color: rgba(0, 0, 0, 0.47);
 
 }
 
@@ -167,6 +183,50 @@ h4{
     margin-top: 5.6rem;
     text-align: center;
 }
+
+
+
+
+
+
+.bottom-box{
+    margin-top: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    border-top: 3px solid rgba(128, 128, 128, 0.289); 
+    width: 95%;
+}
+
+.bottom-right{
+    width: 60%;
+}
+
+
+
+
+.bottom-right p{
+    color: rgba(0, 0, 0, 0.613);
+}
+
+
+.bottom-left{
+    width: 40%;
+    text-align: end;
+}
+
+
+.bottom-left-container{
+    margin-top: 0.8rem;
+}
+
+
+
+.bottom-left p{
+    color: rgba(0, 0, 0, 0.537);
+}
+
+
+
 
 
 
