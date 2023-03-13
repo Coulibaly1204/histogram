@@ -1,0 +1,173 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    border: 1px solid red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:hsl(27, 66%, 92%);
+}
+
+
+
+.container{
+    border: 1px solid blue;
+    width: 30%;
+    height: 80vh;
+}
+
+
+
+.flexbox-top{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.6rem;
+    background-color: hsl(10, 79%, 65%);
+}
+
+
+.flexbox-top-right{
+    width: 60%;
+    color: hsl(27, 66%, 92%);
+    padding-left: 1rem;
+}
+h4{
+    padding-bottom: 0.5rem;
+}
+
+
+.flexbox-top-left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 1rem;
+}
+
+
+.flexbox-bottom{
+    border: 1px solid goldenrod;
+    width: 100%;
+    height: 62vh;
+    border-radius: 0.6rem;
+    margin-top: 0.8rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+    
+
+}
+
+
+.histogram-container{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    margin-top: 3rem;
+
+}
+
+
+.histogram-mon{
+    width: 10%;
+    height: 10vh;
+    background-color:  hsl(10, 79%, 65%) ;
+    border-radius: 0.4rem;
+}
+
+.histogram-tue{
+    width: 10%;
+    height: 16vh;
+    background-color:  hsl(10, 79%, 65%) ;
+    border-radius: 0.4rem;
+}
+.histogram-wed{
+    width: 10%;
+    height: 23vh;
+    background-color: hsl(186, 34%, 60%);
+    border-radius: 0.4rem;
+}
+.histogram-thu{
+    width: 10%;
+    height: 14vh;
+    background-color:  hsl(10, 79%, 65%) ;
+    border-radius: 0.4rem;
+}
+.histogram-fri{
+    width: 10%;
+    height: 12vh;
+    background-color:  hsl(10, 79%, 65%) ;
+    border-radius: 0.4rem;
+}
+.histogram-sat{
+    width: 10%;
+    height: 19vh;
+    background-color:  hsl(10, 79%, 65%) ;
+    border-radius: 0.4rem;
+}
+.histogram-sun{
+    width: 10%;
+    height: 13vh;
+    background-color:  hsl(10, 79%, 65%) ;
+    border-radius: 0.4rem;
+}
+
+
+.text-histogram-mon{
+    margin-top: 4.3rem;
+    text-align: center;
+}
+
+
+.text-histogram-tue{
+    margin-top: 6.9rem;
+    text-align: center;
+}
+
+
+.text-histogram-wed{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.text-histogram-thu{
+    margin-top: 6.1rem;
+    text-align: center;
+}
+
+
+.text-histogram-fri{
+    margin-top: 5.2rem;
+    text-align: center;
+}
+
+
+.text-histogram-sat{
+    margin-top:8.2rem;
+    text-align: center;
+}
+
+
+.text-histogram-sun{
+    margin-top: 5.6rem;
+    text-align: center;
+}
+
+
+
+
